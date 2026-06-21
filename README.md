@@ -167,5 +167,8 @@ Os arquivos originais utilizados na execução (fornecidos pelo professor) estã
 - `compile.sh` — script de compilação
 
 ## 8. Conclusão
+<img width="902" height="944" alt="Screenshot 2026-06-21 182248" src="https://github.com/user-attachments/assets/a4f14139-3a39-448c-9084-8646d8bd8471" />
+<img width="1363" height="764" alt="Screenshot 2026-06-21 182311" src="https://github.com/user-attachments/assets/1a3afc0e-c2d1-450a-821c-c91e6a3bc1ea" />
+<img width="1860" height="362" alt="testes avancados" src="https://github.com/user-attachments/assets/54b31283-325c-427e-90b5-b017f2b2605f" />
 
 O laboratório permitiu reproduzir, em ambiente controlado via containers, os principais conceitos da disciplina de Redes e Protocolos: endereçamento em Camada 2 (MAC/ARP), controle em Camada 3 (IP/ICMP/TTL), protocolos de transporte (TCP vs UDP), medição de desempenho (iperf3), resolução de nomes (DNS) e diagnóstico de falhas de rede. A etapa de eBPF/XDP demonstrou, na prática, uma técnica moderna de filtragem de pacotes em velocidade de linha diretamente no kernel Linux.
