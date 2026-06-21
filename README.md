@@ -4,7 +4,7 @@ Disciplina: **Redes e Protocolos**
 Aluno: Igor Anholeti
 Curso Técnico em Redes de Computadores
 
-Laboratório baseado no repositório original do professor: [DANIELVENTORIM/ebpf-lab](https://github.com/DANIELVENTORIM/ebpf-lab)
+Laboratório baseado no repositório original do professor: Marcio - [DANIELVENTORIM/ebpf-lab](https://github.com/DANIELVENTORIM/ebpf-lab)
 
 ---
 
