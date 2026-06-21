@@ -1,0 +1,28 @@
+name: ebpf-lab
+
+mgmt:
+  network: clab
+  ipv4-subnet: 172.20.20.0/24
+
+topology:
+  nodes:
+    node-a:
+      kind: linux
+      image: nicolaka/netshoot:latest
+      cmd: /bin/sh -c "while true; do sleep 3600; done"
+      exec:
+        - ip addr add 10.0.0.1/24 dev eth1
+        - ip link set eth1 up
+
+    node-b:
+      kind: linux
+      image: nicolaka/netshoot:latest
+      cmd: /bin/sh -c "while true; do sleep 3600; done"
+      binds:
+        - ./xdp_drop.o:/xdp_drop.o
+      exec:
+        - ip addr add 10.0.0.2/24 dev eth1
+        - ip link set eth1 up
+
+  links:
+    - endpoints: ["node-a:eth1", "node-b:eth1"]
